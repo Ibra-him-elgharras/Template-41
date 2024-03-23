@@ -8,6 +8,9 @@
     --fifth-color: #6C757D;
 }
 /* end variables */
+/* Start componant */
+
+/* End componant */
 /* start global rules */
 *{
     -moz-box-sizing: border-box;
@@ -32,6 +35,27 @@ ul{
     margin-left: auto;
     margin-right: auto;
 }
+/* small */
+@media (min-width: 768px) {
+    .container{
+        width: 750px;
+    }
+}
+/* medium */
+@media (min-width: 992px) {
+    .container{
+        width: 970px;
+    }
+}
+/* large */
+@media (min-width: 1200px) {
+    .container{
+        width: 1170px;
+    }
+}
+/* end global rules */ 
+/* start headr*/
+
 header{
     margin: 20px auto;
 }
@@ -61,6 +85,8 @@ header .container .types li a:hover{
     background-color: var(--third-color);
     border-top: 3px solid var(--main-color);
 }
+/* end headr */
+/* Start Welcome */
 .welcome{
     background-color: var(--secondary-color);
     margin-top: -5px;
@@ -106,6 +132,8 @@ header .container .types li a:hover{
         transform: translateY(-30px);
     }
 }
+/* end welcome */
+/* Start arrow */
 .arrow-down {
     display: flex;
     align-items: center;
@@ -137,22 +165,47 @@ header .container .types li a:hover{
         transform: translateY(-30px);
     }
 }
-/* small */
-@media (min-width: 768px) {
-    .container{
-        width: 750px;
-    }
+/* end arrow */
+/* Start Articles */
+.Articles{
+
 }
-/* medium */
-@media (min-width: 992px) {
-    .container{
-        width: 970px;
-    }
+.Articles .titles{
+    width: fit-content;
+    padding: 12px 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 2px solid var(--first-color);
 }
-/* large */
-@media (min-width: 1200px) {
-    .container{
-        width: 1170px;
-    }
+.Articles .titles::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    transform: translate(-50%, -50%);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    border-color: var(--main-color);
 }
-/* end global rules */   
+.Articles .titles::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -45px;
+    transform: translate(-50%, -50%);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+/* End Articles*/
+  
