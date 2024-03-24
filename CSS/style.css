@@ -215,16 +215,17 @@ header .container .types li a:hover{
 }
 .articles .container .box{
     background-color: var(--secondary-color);
-    width: calc((100% / 4) - 2%);
+    width: calc((100% / 4) - 2.5%);
     margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     border-radius: 8px;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 .articles .container .box:hover{
-    transform: translateY(-2%);
+    transform: translateY(-10px);
 }
+
 .articles .container .box img{
     width: 100%;
     height: 200px;
@@ -256,6 +257,8 @@ header .container .types li a:hover{
 .articles .container .box .more i{
     color: var(--main-color);
     font-size: 18px;
+}
+.articles .container .box:hover > .more i{
     transition: 0.3s;
     animation-duration: 0.3s;
     animation-delay: 0.3s;
