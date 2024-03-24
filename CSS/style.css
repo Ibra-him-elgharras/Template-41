@@ -277,6 +277,10 @@ header .container .types li a:hover{
     }
 /* End Articles*/
 /* Start Gallery*/
+.gallery{
+    background-color: var(--secondary-color);
+    padding-top: 50px;
+}
 .gallery .titles{
     width: fit-content;
     padding: 12px 20px;
@@ -326,21 +330,18 @@ header .container .types li a:hover{
     margin: 70px auto;
 }
 .gallery .container .box{
-    background-color: var(--secondary-color);
-    width: calc((100% / 4) - 2.5%);
+    width: calc((100% / 3) - 3%);
     margin-bottom: 40px;
     display: flex;
-    flex-direction: column;
-    border-radius: 8px;
     transition: 0.5s;
 }
 .gallery .container .box:hover{
-    
+    transform: rotate(360deg);
 }
 .gallery .container .box img{
     width: 100%;
-    height: 200px;
-    border-radius: 8px 8px 0 0;
+    height: 350px;
+    border: 15px solid white;
 }
 /* End Gallery*/
   
