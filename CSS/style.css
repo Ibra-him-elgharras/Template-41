@@ -344,4 +344,70 @@ header .container .types li a:hover{
     border: 15px solid white;
 }
 /* End Gallery*/
+/* Start features*/
+.features{
+    background-color: var(--secondary-color);
+    padding-top: 50px;
+}
+.features .titles{
+    width: fit-content;
+    padding: 12px 20px;
+    margin-top: 20px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 2px solid var(--first-color);
+}
+.features .titles:hover{
+    color: white;
+    background-color: var(--fourth-color);
+    border: none;
+    transition: 0.3s;
+}
+.features .titles::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    transform: translate(-50%, -50%);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+.features .titles::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -45px;
+    transform: translate(-50%, -50%);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+.features .container{
+    margin: 70px auto;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+.features .container .box{
+    width: 350px;
+    background-color: yellow;
+}
+.features .container .box  img{
+    width: 100%;
+    height: 350px;
+    
+}
+.features .container .box .text{
+    
+}
+/* End features*/
   
