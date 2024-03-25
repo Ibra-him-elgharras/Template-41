@@ -346,7 +346,7 @@ header .container .types li a:hover{
 /* End Gallery*/
 /* Start features*/
 .features{
-    background-color: var(--secondary-color);
+    
     padding-top: 50px;
 }
 .features .titles{
@@ -393,21 +393,52 @@ header .container .types li a:hover{
 }
 .features .container{
     margin: 70px auto;
-    background-color: red;
+    
     display: flex;
     justify-content: space-between;
 }
 .features .container .box{
     width: 350px;
-    background-color: yellow;
+    text-align: center;
+    border: 1px solid var(--first-color);
 }
 .features .container .box  img{
     width: 100%;
     height: 350px;
-    
 }
 .features .container .box .text{
-    
+    margin: 70px auto 30px;
+    position: relative;
+}
+.features .container .box .text h4{
+    font-size: 35px;
+    margin-bottom: 45px;
+}
+.features .container .box .text h4::after{
+    content: "";
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 68px;
+    background-color: var(--main-color);
+    border: 3px solid var(--main-color);
+}
+.features .container .box .text p{
+    font-size: 16px;
+    line-height: 1.9;
+    padding: 0 15px;
+    color: var(--fifth-color);
+    margin-bottom: 20px;
+}
+.features .container .box .text button{
+    color: var(--main-color);
+    border: 3px solid var(--main-color);
+    background-color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 800;
 }
 /* End features*/
   
