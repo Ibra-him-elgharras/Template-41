@@ -442,7 +442,7 @@ header .container .types li a:hover{
 /* End features*/
 /* Start testimonials*/
 .testimonails{
-    padding: 50px 0;
+    padding: 50px 0 10px;
     background-color: var(--secondary-color);
 }
 .testimonails .titles{
@@ -501,7 +501,6 @@ header .container .types li a:hover{
     padding: 20px;
     border-radius: 10px;
 }
-
 .testimonails .container .box  .image{
     width: 105px;
     height: 105px;
@@ -543,4 +542,61 @@ header .container .types li a:hover{
     line-height: 1.6;
 }
 /* End testimonials*/
+/* Start team-members*/
+.team-members{
+    padding: 50px 0 10px;
+    background-color: white;
+}
+.team-members .titles{
+    width: fit-content;
+    padding: 12px 20px;
+    margin-top: 20px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 2px solid var(--first-color);
+}
+.team-members .titles:hover{
+    color: white;
+    background-color: var(--fourth-color);
+    border: none;
+    transition: 0.3s;
+}
+.team-members .titles::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    transform: translate(-50%, -50%);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+.team-members .titles::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -45px;
+    transform: translate(-50%, -50%);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+.team-members .container{
+    margin: 100px auto 70px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.team-members .container .box{
+    
+}
+/* End team-members*/
   
