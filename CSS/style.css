@@ -346,7 +346,6 @@ header .container .types li a:hover{
 /* End Gallery*/
 /* Start features*/
 .features{
-    
     padding-top: 50px;
 }
 .features .titles{
@@ -392,8 +391,7 @@ header .container .types li a:hover{
     border-color: var(--main-color);
 }
 .features .container{
-    margin: 70px auto;
-    
+    margin: 70px auto; 
     display: flex;
     justify-content: space-between;
 }
@@ -441,4 +439,66 @@ header .container .types li a:hover{
     font-weight: 800;
 }
 /* End features*/
+/* Start testimonials*/
+.testimonails{
+    padding-top: 50px;
+    background-color: var(--secondary-color);
+}
+.testimonails .titles{
+    width: fit-content;
+    padding: 12px 20px;
+    margin-top: 20px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 2px solid var(--first-color);
+}
+.testimonails .titles:hover{
+    color: white;
+    background-color: var(--fourth-color);
+    border: none;
+    transition: 0.3s;
+}
+.testimonails .titles::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    transform: translate(-50%, -50%);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+.testimonails .titles::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -45px;
+    transform: translate(-50%, -50%);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+.testimonails .container{
+    margin: 70px auto; 
+    display: flex;
+    justify-content: space-between;
+}
+.testimonails .container .box{
+    
+}
+.testimonails .container .box  img{
+    
+}
+.testimonails .container .box .text{
+    
+}
+/* End testimonials*/
   
