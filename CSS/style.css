@@ -590,11 +590,11 @@ header .container .types li a:hover{
     border-color: var(--main-color);
 }
 .team-members .container{
+    position: relative;
     margin: 100px auto 70px; 
     display: flex;
     flex-wrap: wrap;
-    
-    
+    justify-content: space-between;
 }
 .team-members .container .box{
     width: 300px;
@@ -613,8 +613,81 @@ header .container .types li a:hover{
     height: 350px;
 }
 .team-members .container .box .text{
-    
+    background-color: red;
 }
 
 /* End team-members*/
-  
+/* Start services*/
+.services{
+    padding: 50px 0 10px;
+    background-color: var(--secondary-color);
+}
+.services .titles{
+    width: fit-content;
+    padding: 12px 20px;
+    margin-top: 20px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 2px solid var(--first-color);
+}
+.services .titles:hover{
+    color: white;
+    background-color: var(--fourth-color);
+    border: none;
+    transition: 0.3s;
+}
+.services .titles::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    transform: translate(-50%, -50%);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+.services .titles::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -45px;
+    transform: translate(-50%, -50%);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+.services  .container{
+    position: relative;
+    margin: 100px auto 70px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.services .container .box{
+    width: 300px;
+    text-align: center;
+    border: 1px solid var(--first-color);
+    background-color: yellow;
+    padding-top: 80px;
+    border-radius: 10px;
+}
+.services  .container .box .image{
+    width: 280px;
+    background-color: gray;
+}
+.services  .container .box .image img{
+    
+}
+.services  .container .box .text{
+    
+}
+
+/* End services*/ 
