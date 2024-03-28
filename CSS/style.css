@@ -593,10 +593,28 @@ header .container .types li a:hover{
     margin: 100px auto 70px; 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-}
-.team-members .container .box{
+    
     
 }
+.team-members .container .box{
+    width: 300px;
+    text-align: center;
+    border: 1px solid var(--first-color);
+    background-color: yellow;
+    padding-top: 80px;
+    border-radius: 10px;
+}
+.team-members .container .box .image{
+    width: 280px;
+    background-color: gray;
+}
+.team-members .container .box .image img{
+    width: 100%;
+    height: 350px;
+}
+.team-members .container .box .text{
+    
+}
+
 /* End team-members*/
   
