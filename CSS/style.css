@@ -672,22 +672,44 @@ header .container .types li a:hover{
     justify-content: space-between;
 }
 .services .container .box{
-    width: 300px;
+    background-color: white;
+    width: calc((100% / 3) - 5%);
+    margin-bottom: 30px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+}
+.services .container .box:hover{
+    transform: translateY(-15px);
+}
+.services .container .box .image{
     text-align: center;
-    border: 1px solid var(--first-color);
-    background-color: yellow;
-    padding-top: 80px;
-    border-radius: 10px;
-}
-.services  .container .box .image{
-    width: 280px;
-    background-color: gray;
-}
-.services  .container .box .image img{
     
 }
-.services  .container .box .text{
+.services .container .box .image i{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: var(--six-color);
+}
+.services .container .box .image h3{
+    font-size: 25px;
+    margin-bottom: 40px;
+    color: var(--six-color);
+    color: var(--main-color);
+}
+.services .container .box .text{
+    background-color: grey;
+}
+.services .container .box .text .h4{
     
 }
+.services .container .box .text span{
+    
+}
+.services .container .box .text p{
+    
+}
+
 
 /* End services*/ 
