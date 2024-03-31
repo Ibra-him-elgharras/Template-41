@@ -673,6 +673,7 @@ header .container .types li a:hover{
 }
 .services .container .box{
     background-color: white;
+    border: 0.1px solid #d0ccccea;
     width: calc((100% / 3) - 5%);
     margin-bottom: 30px;
     padding-top: 40px;
@@ -685,7 +686,6 @@ header .container .types li a:hover{
 }
 .services .container .box .image{
     text-align: center;
-    
 }
 .services .container .box .image i{
     font-size: 50px;
@@ -699,16 +699,34 @@ header .container .types li a:hover{
     color: var(--main-color);
 }
 .services .container .box .text{
-    background-color: grey;
+    background-color: #bbb4b346;
+    display: flex;
+    height: 50px;
+    position: relative;
 }
 .services .container .box .text .h4{
-    
+    background-color: var(--main-color);
+    color: white;
+    font-size: 20px;
+    height: 100%;
+    width: 70px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 12px;
 }
 .services .container .box .text span{
-    
+    background-color: #bbb4b3d8;
+    height: 100%;
+    width: 45px;
 }
 .services .container .box .text p{
-    
+    color: var(--main-color);
+    font-size: 16px;
+    padding-top: 12px;
+    padding-right: 15px;
+    position: absolute;
+    right: 0;
+    height: 100%;
 }
 
 
