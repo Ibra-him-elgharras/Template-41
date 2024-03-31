@@ -683,6 +683,8 @@ header .container .types li a:hover{
 }
 .services .container .box:hover{
     transform: translateY(-15px);
+    border-top: 3px solid var(--main-color);
+    transition: 0.5s;
 }
 .services .container .box .image{
     text-align: center;
@@ -728,6 +730,4 @@ header .container .types li a:hover{
     right: 0;
     height: 100%;
 }
-
-
 /* End services*/ 
