@@ -884,14 +884,52 @@ header .container .types li a:hover{
     border-color: var(--main-color);
 }
 .events .container{
-    background-color: yellow;
     margin: 100px auto 70px; 
+    display: flex;
+    flex-direction: column;
+}
+.events .container .cont{
     display: flex;
     justify-content: space-between;
 }
-.events .container .cont{
-    background-color: green;
+.events .container .cont .image{
+    width: 40%;
 }
+.events .container .cont .image img{
+    width: 100%;
+}
+.events .container .cont .text{
+    width: 58%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.events .container .cont .text .monitors{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.events .container .cont .text .monitors .box{
+    width: 80px;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: 1px solid var(--fifth-color);
+}
+.events .container .cont .text .monitors .box:hover{
+    border: 1px solid var(--main-color);
+}
+.events .container .cont .text .monitors .box h3{
+    color: var(--main-color);
+    font-size: 35px;
+    padding: 20px 5px 20px 10px;
+}
+.events .container .cont .text .monitors .box p{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 1px solid var(--fifth-color);
+    text-align: center;
+}
+
 .events .container .search{
     background-color: #86BBD8;
 }
