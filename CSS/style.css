@@ -835,5 +835,64 @@ header .container .types li a:hover{
     color: #241d1daf;
     line-height: 1.8;
 }
-
 /* End works*/ 
+/* Start Events*/
+.events{
+    padding: 50px 0 10px;
+    
+}
+.events .titles{
+    width: fit-content;
+    padding: 12px 20px;
+    margin-top: 20px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 2px solid var(--first-color);
+}
+.events .titles:hover{
+    color: white;
+    background-color: var(--fourth-color);
+    border: none;
+    transition: 0.3s;
+}
+.events .titles::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    transform: translate(-50%, -50%);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+.events .titles::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -45px;
+    transform: translate(-50%, -50%);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+.events .container{
+    background-color: yellow;
+    margin: 100px auto 70px; 
+    display: flex;
+    justify-content: space-between;
+}
+.events .container .cont{
+    background-color: green;
+}
+.events .container .search{
+    background-color: #86BBD8;
+}
+/* End Events*/ 
