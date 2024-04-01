@@ -839,7 +839,6 @@ header .container .types li a:hover{
 /* Start Events*/
 .events{
     padding: 50px 0 10px;
-    
 }
 .events .titles{
     width: fit-content;
@@ -929,8 +928,43 @@ header .container .types li a:hover{
     border-top: 1px solid var(--fifth-color);
     text-align: center;
 }
+.events .container .cont .text .info h4{
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.events .container .cont .text .info p{
+    font-size: 17px;
+    line-height: 1.8;
+    justify-content: baseline;
+    margin-bottom: 60px;
+}
 
 .events .container .search{
-    background-color: #86BBD8;
+    width: 600px;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding: 30px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+.events .container .search input{
+    width: 70%;
+    border-radius: 50px;
+    padding-left: 15px;
+    margin-right: 10px;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+.events .container .search button{
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 50px;
 }
 /* End Events*/ 
