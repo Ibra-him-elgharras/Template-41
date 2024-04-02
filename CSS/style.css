@@ -971,6 +971,7 @@ header .container .types li a:hover{
 /* Start pricing*/
 .pricing{
     padding-top: 50px;
+    background-color: #EAF4F4;
 }
 .pricing .titles{
     width: fit-content;
