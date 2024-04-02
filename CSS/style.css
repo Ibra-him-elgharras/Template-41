@@ -1023,7 +1023,41 @@ header .container .types li a:hover{
 .pricing .container .box{
     width: 350px;
     text-align: center;
-    border: 1px solid var(--first-color);
+    border: 1px solid #EAF4F4;
+    background-color: white;
+}
+.pricing .container .box .icons h4{
+    font-size: 25px;
+    margin: 20px auto;
+}
+.pricing .container .box .icons i{
+    font-size: 100px;
+    margin-bottom: 30px;
+    color: var(--main-color);
+}
+.pricing .container .box .icons .doll i{
+    font-size: 55px;
+    margin-right: -5px;
+    margin-bottom: 5px;
+}
+.pricing .container .box .icons .doll span{
+    font-size: 55px;
+    font-weight: 700;
+    color: var(--main-color);
+}
+.pricing .container .box .icons h5{
+    font-size: 15px;
+    color: var(--six-color);
+    margin: 5px auto 10px;
+}
+.pricing .container .box .icons h4{
+    
+}
+.pricing .container .box .text{
+    background-color: yellow;
+}
+.pricing .container .box .btns{
+    background-color: aqua;
 }
 
 /* End pricing*/
