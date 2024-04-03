@@ -1026,6 +1026,10 @@ header .container .types li a:hover{
     border: 1px solid #EAF4F4;
     background-color: white;
 }
+.pricing .container .box:nth-child(2){
+    position: relative;
+    top: -25px;
+}
 .pricing .container .box .icons h4{
     font-size: 25px;
     margin: 20px auto;
@@ -1050,30 +1054,41 @@ header .container .types li a:hover{
     color: var(--six-color);
     margin: 5px auto 10px;
 }
-.pricing .container .box .icons h4{
-    
-}
 .pricing .container .box .text .text-1{
+    border-top: 1px solid var(--fifth-color);
     position: relative;
-    margin-right: 10px;
-    margin-left: 15px;
 }
 .pricing .container .box .text .text-1 i{
     color: var(--main-color);
     font-size: 20px;
+    margin-left: 10px;
     position: absolute;
     top: 50%;
     left: 0;
     transform: translate(0, -50%);
-    
 }
 .pricing .container .box .text .text-1 p{
-    border-top: 1px solid var(--fifth-color);
-    padding: 15px 0 15px 30px;
+    margin-left: 10px;
+    padding: 20px 0 20px 30px;
     text-align: left;
 }
 .pricing .container .box .btns{
-    background-color: aqua;
+    margin: 40px auto 20px;
+}
+.pricing .container .box .btns button{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 15px;
+    border-radius: 5px;
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+    background-color: white;
+    transition: 0.3s;
+}
+.pricing .container .box .btns button:hover{
+    color: white;
+    background-color: var(--main-color);
+    border: none;
 }
 
 /* End pricing*/
