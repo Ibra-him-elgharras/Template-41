@@ -1053,8 +1053,24 @@ header .container .types li a:hover{
 .pricing .container .box .icons h4{
     
 }
-.pricing .container .box .text{
-    background-color: yellow;
+.pricing .container .box .text .text-1{
+    position: relative;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+.pricing .container .box .text .text-1 i{
+    color: var(--main-color);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    
+}
+.pricing .container .box .text .text-1 p{
+    border-top: 1px solid var(--fifth-color);
+    padding: 15px 0 15px 30px;
+    text-align: left;
 }
 .pricing .container .box .btns{
     background-color: aqua;
