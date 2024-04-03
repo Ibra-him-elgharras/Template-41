@@ -1030,6 +1030,22 @@ header .container .types li a:hover{
     position: relative;
     top: -25px;
 }
+.pricing .container .box .favortite{
+    width: fit-content;
+    position: relative;
+    transform: rotate(90deg);
+    top: 56px;
+    right: -68%;
+    
+}
+.pricing .container .box .favortite p{
+    background-color: var(--main-color);
+    color: white;
+    padding: 10px 25px;
+    font-size: 16px;
+}
+
+
 .pricing .container .box .icons h4{
     font-size: 25px;
     margin: 20px auto;
