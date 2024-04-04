@@ -1120,6 +1120,7 @@ header .container .types li a:hover{
 /* Start top-videos*/
 .videos{
     padding: 50px 0 10px;
+    background-color: #f9f4f4;
 }
 .videos .titles{
     width: fit-content;
@@ -1166,21 +1167,26 @@ header .container .types li a:hover{
 .videos .container{
     margin: 100px auto 70px; 
     display: flex;
-    border: 1px solid var(--fifth-color);
 }
 .videos .container .info-videos{
     display: flex;
     flex-direction: column;
-    width: 40%;
-    background-color: yellow;
+    width: 30%;
+    margin-left: -15px;
+    margin-right: 1px;
+    background-color: #f9f4f4;
+    border-right: 1px solid var(--six-color);
 }
 .videos .container .info-videos .tit{
     display: flex;
     justify-content: space-between;
     font-size: 15px;
+    padding-left: 15px;
     font-weight: bold;
+    background-color: #e8e9ed;
 }
 .videos .container .info-videos .tit h1{
+    font-size: 17px;
     
 }
 .videos .container .info-videos .tit i{
@@ -1188,22 +1194,30 @@ header .container .types li a:hover{
 }
 .videos .container .info-videos .dett{
     border-top: 1px solid var(--six-color);
-    padding: 15px;
+    padding: 25px 15px;
 }
-.videos .container .videos{
+.videos .container .info-videos .dett p{
+    margin-bottom: 5px;
+}
+.videos .container .vid{
     display: flex;
     flex-direction: column;
-    border: 5px solid var(--six-color);
-    width: 60%;
-    background-color: #86BBD8;
+    width: 70%;
+    padding: 10px;
+    background-color: #e8e9ed;
+    position: relative;
 }
-.videos .container .videos img{
+.videos .container .vid img{
     width: 100%;
-    height: 400px;
+    height: 430px;
 }
-.videos .container .videos p{
+.videos .container .vid p{
     text-transform: uppercase;
     background-color: white;
-    padding: 25px 15px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    padding: 20px;
+    width: calc(100% - 10px);
 }
 /* End top-videos*/ 
