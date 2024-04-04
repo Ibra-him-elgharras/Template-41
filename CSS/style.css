@@ -971,6 +971,7 @@ header .container .types li a:hover{
 /* Start pricing*/
 .pricing{
     padding-top: 50px;
+    padding-bottom: 50px;
     background-color: #EAF4F4;
 }
 .pricing .titles{
@@ -1025,6 +1026,8 @@ header .container .types li a:hover{
     text-align: center;
     border: 1px solid #EAF4F4;
     background-color: white;
+    box-shadow: inset 1px 5px 10px 5px rgb(242, 100, 25, 0.1);
+    
 }
 .pricing .container .box:nth-child(2){
     position: relative;
@@ -1036,7 +1039,6 @@ header .container .types li a:hover{
     transform: rotate(90deg);
     top: 56px;
     right: -68%;
-    
 }
 .pricing .container .box .favortite p{
     background-color: var(--main-color);
@@ -1044,8 +1046,16 @@ header .container .types li a:hover{
     padding: 10px 25px;
     font-size: 16px;
 }
-
-
+.pricing .container .box .favortite .whit{
+    width: 1px;
+    height: 1px;
+    border-width: 22px;
+    border-style: solid;
+    border-color: transparent white transparent transparent;
+    position: absolute;
+    top: -3px;
+    right: -1px;
+}
 .pricing .container .box .icons h4{
     font-size: 25px;
     margin: 20px auto;
