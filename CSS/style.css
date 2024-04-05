@@ -1230,3 +1230,39 @@ header .container .types li a:hover{
     width: calc(100% - 20px);
 }
 /* End top-videos*/ 
+/* Start Articles */
+
+.stats{
+    background-image: url(../images/stats.jpg);
+}
+.stats .titles{
+    width: fit-content;
+    padding: 12px 20px;
+    margin-top: 20px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.stats .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 70px auto;
+}
+.stats .container .box{
+    background-color: var(--secondary-color);
+    width: calc((100% / 4) - 2.5%);
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+.stats .container .box:hover{
+    transform: translateY(-15px);
+}
+
+/* End Articles*/
