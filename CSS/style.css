@@ -1247,22 +1247,34 @@ header .container .types li a:hover{
     text-transform: uppercase;
 }
 .stats .container{
+    
+}
+.stats .container .box{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 70px auto;
+    text-align: center;
 }
-.stats .container .box{
-    background-color: var(--secondary-color);
+.stats .container .box-{
+    background-color: red;
     width: calc((100% / 4) - 2.5%);
     margin-bottom: 40px;
     display: flex;
     flex-direction: column;
-    border-radius: 8px;
-    transition: 0.5s;
+    padding: 40px 5px;
 }
-.stats .container .box:hover{
-    transform: translateY(-15px);
+.stats .container .box-:hover{
+    
 }
-
+.stats .container .box- i{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.stats .container .box- h3{
+    
+}
+.stats .container .box- span{
+    
+}
 /* End Articles*/
