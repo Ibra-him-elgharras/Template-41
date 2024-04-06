@@ -1248,9 +1248,6 @@ header .container .types li a:hover{
     text-transform: capitalize;
     color: var(--main-color);
 }
-.stats .container{
-    
-}
 .stats .container .box{
     display: flex;
     flex-wrap: wrap;
@@ -1281,3 +1278,40 @@ header .container .types li a:hover{
     color: var(--main-color);
 }
 /* End Articles*/
+/* start footer*/
+.footer{
+    background-color: var(--first-color);
+}
+.footer .container{
+    background-color: yellow;
+}
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .container .media,
+.footer .container .Links,
+.footer .container .adress,
+.footer .container .images{
+    width: 24%;
+}
+.footer .container .media{
+    
+}
+.footer .container .Links{
+    
+}
+.footer .container .adress{
+    
+}
+.footer .container .images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.footer .container .images img{
+    width: 32%;
+    margin-bottom: 5px;
+}
+/* End footer*/
