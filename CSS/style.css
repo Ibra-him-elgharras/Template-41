@@ -1234,17 +1234,19 @@ header .container .types li a:hover{
 
 .stats{
     background-image: url(../images/stats.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.15);
 }
 .stats .titles{
     width: fit-content;
-    padding: 12px 20px;
-    margin-top: 20px;
+    padding: 100px 20px 10px;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: capitalize;
+    color: var(--main-color);
 }
 .stats .container{
     
@@ -1253,12 +1255,13 @@ header .container .types li a:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 70px auto;
+    margin: 20px auto 10px;
     text-align: center;
+    padding-bottom: 40px;
 }
 .stats .container .box-{
-    background-color: red;
-    width: calc((100% / 4) - 2.5%);
+    background-color: white;
+    width: calc((100% / 4) - 2.6%);
     margin-bottom: 40px;
     display: flex;
     flex-direction: column;
@@ -1267,14 +1270,14 @@ header .container .types li a:hover{
 .stats .container .box-:hover{
     
 }
-.stats .container .box- i{
+.stats .container .box- i,
+.stats .container .box- h3{
     font-size: 35px;
     margin-bottom: 10px;
 }
-.stats .container .box- h3{
-    
-}
-.stats .container .box- span{
-    
+.stats .container .box- p{
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--main-color);
 }
 /* End Articles*/
