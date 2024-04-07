@@ -1283,11 +1283,10 @@ header .container .types li a:hover{
     background-color: var(--first-color);
 }
 .footer .container{
-    background-color: yellow;
-}
-.footer .container{
     display: flex;
     justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .footer .container .media,
 .footer .container .Links,
@@ -1296,7 +1295,42 @@ header .container .types li a:hover{
     width: 24%;
 }
 .footer .container .media{
-    
+
+}
+.footer .container .media h1{
+    font-size: 45px;
+    font-weight: 800;
+    color: white;
+}
+.footer .container .media .icons{
+    position: relative;
+    display: flex;
+}
+.footer .container .media .icons i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: gray;
+    color: white;
+    margin-right: 15px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.footer .container .media .icons i:nth-child(1):hover{
+    background-color: #0000ff;
+}
+.footer .container .media .icons i:nth-child(2):hover{
+    background-color: #0a9fc1;
+}
+.footer .container .media .icons i:nth-child(3):hover{
+    background-color: #f20a0a;
+}
+.footer .container .media p{
+    padding-top: 15px;
+    line-height: 1.8;
+    color: white;
 }
 .footer .container .Links{
     
