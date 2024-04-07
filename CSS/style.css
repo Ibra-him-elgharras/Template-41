@@ -1332,9 +1332,6 @@ header .container .types li a:hover{
     line-height: 1.8;
     color: white;
 }
-.footer .container .Links{
-
-}
 .footer .container .Links .link-{
     border-bottom: 1px solid gray;
     padding-top: 17px;
@@ -1360,7 +1357,32 @@ header .container .types li a:hover{
     color: #808080e7;
 }
 .footer .container .adress{
-    
+
+}
+.footer .container .adress .addr,
+.footer .container .adress .time,
+.footer .container .adress .phone{
+    display: flex;
+    margin-bottom: 50px;
+}
+.footer .container .adress .addr i,
+.footer .container .adress .time i,
+.footer .container .adress .phone i{
+    color: var(--main-color);
+    margin-right: 15px;
+    margin-left: 5px;
+    font-size: 25px;
+}
+.footer .container .adress .addr p,
+.footer .container .adress .time p,
+.footer .container .adress .phone p{
+    color: #808080e7;
+    line-height: 1.6;
+}
+.footer .container .adress .addr span,
+.footer .container .adress .time span,
+.footer .container .adress .phone span{
+    color: white;
 }
 .footer .container .images{
     display: flex;
@@ -1368,7 +1390,8 @@ header .container .types li a:hover{
     justify-content: space-between;
 }
 .footer .container .images img{
-    width: 32%;
-    margin-bottom: 5px;
+    width: 80px;
+    height: 80px;
+    
 }
 /* End footer*/
