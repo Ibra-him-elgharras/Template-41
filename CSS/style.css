@@ -1294,9 +1294,6 @@ header .container .types li a:hover{
 .footer .container .images{
     width: 24%;
 }
-.footer .container .media{
-
-}
 .footer .container .media h1{
     font-size: 45px;
     font-weight: 800;
@@ -1385,13 +1382,25 @@ header .container .types li a:hover{
     color: white;
 }
 .footer .container .images{
+
+    height: 90%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 .footer .container .images img{
-    width: 80px;
-    height: 80px;
-    
+    width: 85px;
+    height: 85px;
+    border: 5px solid white;
+    margin-bottom: 10px;
+}
+.footer hr{
+    width: 100%;
+    border: 0.3px solid #808080e7;
+}
+.footer .foot{
+    color: white;
+    text-align: center;
+    padding: 25px;
 }
 /* End footer*/
