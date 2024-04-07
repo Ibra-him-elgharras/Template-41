@@ -1333,7 +1333,31 @@ header .container .types li a:hover{
     color: white;
 }
 .footer .container .Links{
-    
+
+}
+.footer .container .Links .link-{
+    border-bottom: 1px solid gray;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    transition: 0.3s;
+}
+.footer .container .Links .link-:hover{
+    padding-left: 15px;
+}
+.footer .container .Links .link-:hover a{
+    color: white;
+}
+
+.footer .container .Links .link-:nth-last-child(1){
+    border-bottom: none;
+}
+.footer .container .Links .link- i{
+    color: var(--main-color);
+    margin-right: 10px;
+}
+.footer .container .Links .link- a{
+    text-decoration: none;
+    color: #808080e7;
 }
 .footer .container .adress{
     
@@ -1342,7 +1366,6 @@ header .container .types li a:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
 }
 .footer .container .images img{
     width: 32%;
