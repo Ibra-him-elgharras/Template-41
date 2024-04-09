@@ -1297,7 +1297,7 @@ header .container .types li a:hover{
     line-height: 1.8;
 }
 .formul .text .image{
-   width: 350px;
+   width: 300px;
    position: relative;
    left: 50%;
    transform: translate(-50%);
@@ -1307,9 +1307,8 @@ header .container .types li a:hover{
 .formul .text .image img{
    width: 100%;
 }
-
 .formul .text-right{
-    background-color: gray;
+    background-color: white;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -1327,12 +1326,25 @@ header .container .types li a:hover{
     width: 100%;
     margin-bottom: 40px;
 }
+.formul .text-right form input:nth-child(2),
+.formul .text-right form input:nth-child(3),
+.formul .text-right form input:nth-child(4){
+    border-bottom: 1px solid rgba(0, 0, 0, 0.384);
+}
 .formul .text-right form input,
 .formul .text-right form textarea{
-    margin-bottom: 15px;
-    height: 40px;
+    margin-bottom: 25px;
+    height: 45px;
     padding: 20px 15px;
     outline: none;
+    border: none;
+    background-color: #f3ececcb;
+    text-transform: capitalize;
+}
+.formul .text-right form textarea{
+    resize: none;
+    height: 160px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.384);
 }
 .formul .text-right form button{
     padding: 20px 15px;
